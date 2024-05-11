@@ -64,6 +64,16 @@ button {
   background-color: rgb(175, 125, 60);
 }
 
+
+.save-btn {
+  background-color: rgb(68, 199, 68);
+  margin-left: 10px;
+}
+
+.save-btn:hover {
+  background-color: rgb(40, 150, 46);
+}
+
 .div-input {
   margin-bottom: 20px;
 }
@@ -82,7 +92,7 @@ ol {
 }
 
 li {
-  width: 50%;
+  width: 53%;
   font-size: 2rem;
   padding: 15px;
   background-color: rgba(192, 142, 77, 0.548);
@@ -99,13 +109,13 @@ li {
   flex: 1;
 }
 
-.delete-btn, .move-btn {
+.delete-btn, .move-btn, .save-btn {
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
 }
 
-
+/* Styles for scroll bar */
 
 ::-webkit-scrollbar {
     width: 20px;
