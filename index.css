@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Pacifico", cursive;
+}
+
+body {
+  background-color: wheat;  
+  
+}
+
+.to-do-list {
+  text-align: center;
+  margin-top: 10px; 
+}
+
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-btn {
+  background-color: blueviolet;
+  margin-left: 10px;
+}
+
+.add-btn:hover {
+  background-color: rgb(95, 38, 150);
+}
+
+.delete-btn {
+  background-color: brown;
+}
+
+.delete-btn:hover {
+  background-color: rgb(155, 7, 7);
+}
+
+.edit-btn {
+  background-color: crimson;
+}
+
+.edit-btn:hover {
+  background-color: rgb(141, 9, 36);
+}
+
+.move-btn {
+  background-color: burlywood;
+}
+
+.move-btn:hover {
+  background-color: rgb(175, 125, 60);
+}
+
+
+.save-btn {
+  background-color: rgb(68, 199, 68);
+  margin-left: 10px;
+}
+
+.save-btn:hover {
+  background-color: rgb(40, 150, 46);
+}
+
+.div-input {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(87, 86, 86);
+  border-radius: 5px;
+  color: rgb(87, 86, 86);
+}
+
+ol {
+  padding: 0;
+  
+}
+
+li {
+  width: 53%;
+  font-size: 2rem;
+  padding: 15px;
+  background-color: rgba(192, 142, 77, 0.548);
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-btn, .move-btn, .save-btn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+/* Styles for scroll bar */
+
+::-webkit-scrollbar {
+    width: 20px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(192, 142, 77, 0.548);
+  border-radius: 200px;
+}
+
