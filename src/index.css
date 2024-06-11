@@ -21,6 +21,11 @@ h1 {
   font-size: 4rem;
 }
 
+input {
+  outline: none;
+  margin-bottom: 10px;  
+}
+
 button {
   font-size: 1.5rem;
   padding: 10px 20px;
@@ -29,6 +34,10 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+}
+
+.edit-input {
+  width: 100%;
 }
 
 .add-btn {
@@ -91,6 +100,10 @@ ol {
   
 }
 
+.text {
+  margin-bottom: 8px;
+}
+
 li {
   width: 53%;
   font-size: 2rem;
@@ -100,6 +113,7 @@ li {
   border: none;
   border-radius: 5px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 20px;
   margin-left: 20%;

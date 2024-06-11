@@ -98,6 +98,7 @@ function ToDoList() {
             {editIndex === index ? (
               <input
                 type="text"
+                className='edit-input'
                 value={editNewTask}
                 onChange={handleEditInputChange}
               />
