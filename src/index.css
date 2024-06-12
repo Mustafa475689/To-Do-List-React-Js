@@ -151,7 +151,7 @@ li {
 
   li {
     width: 90%;
-    margin: 10px 0;
+    margin: 10px 10px;
   }
 
   .edit-btn,
@@ -162,5 +162,14 @@ li {
     font-size: 1rem;
   }
  
-  
+  .add-btn {
+    padding: 6px;
+    font-size: 1.25rem;
+  } 
+
+  .add-input {
+    width: 70%;
+    height: 30px;
+    font-size: 1.25rem;
+  }
 }

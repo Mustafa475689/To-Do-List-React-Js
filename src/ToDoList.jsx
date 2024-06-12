@@ -84,6 +84,7 @@ function ToDoList() {
       <div className="div-input">
         <input
           type="text"
+          className='add-input'
           placeholder="Enter a task..."
           value={newTask}
           onChange={handleInputChange}
